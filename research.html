@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Research — Mohsen Foroughifar</title>
+<meta name="description" content="Published papers, working papers, and work in progress by Mohsen Foroughifar on algorithmic pricing, the economics of AI, platforms, and advertising, each summarized in plain English.">
+<link rel="canonical" href="https://mforoughifar.github.io/research.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mohsen Foroughifar — Research: every paper, in plain English">
+<meta property="og:description" content="Published papers, working papers, and work in progress by Mohsen Foroughifar on algorithmic pricing, the economics of AI, platforms, and advertising, each summarized in plain English.">
+<meta property="og:url" content="https://mforoughifar.github.io/research.html">
+<meta property="og:image" content="https://mforoughifar.github.io/assets/img/mohsen.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c41230'/%3E%3Ctext x='32' y='42' font-family='monospace' font-size='26' font-weight='700' text-anchor='middle' fill='white'%3EMF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=Fraunces:ital,opsz,wght@0,9..144,400..800;1,9..144,400..800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+<script>document.documentElement.classList.add("js");try{if(localStorage.getItem("mf-humor")==="0")document.documentElement.classList.add("control")}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="index.html"><span class="brand-mark">MF</span>Mohsen Foroughifar</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="research.html" aria-current="page">Research</a></li>
+      <li><a href="impact.html">Impact</a></li>
+      <li><a href="work-with-me.html">Work with me</a></li>
+      <li><a href="job-market.html">Job market tips</a></li>
+      <li><a class="nav-cv" href="CV_MF_Nov2026.pdf">CV</a></li>
+      <li class="nav-humor"><button class="humor-toggle" type="button" aria-pressed="true"><span class="dot"></span><span class="ht-prefix">treatment:</span> <span class="ht-label">jokes on</span></button></li>
+    </ul>
+    <button class="humor-toggle" type="button" aria-pressed="true"><span class="dot"></span><span class="ht-prefix">treatment:</span> <span class="ht-label">jokes on</span></button>
+    <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="nav-links">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-head">
+    <div class="wrap">
+      <span class="kicker">Research</span>
+      <h1>Every paper, in plain English.</h1>
+      <p class="lede">Published, under review, and still cooking. Each entry says what we asked, what we found, and why anyone outside a seminar room should care. <span class="joke">Abstracts are for people who enjoy the word “heterogeneous.”</span></p>
+    </div>
+  </section>
+
+  <section class="section tight" style="padding-top:0">
+    <div class="wrap">
+
+      <div class="chips" role="group" aria-label="Filter papers by topic">
+        <button class="chip" type="button" data-filter="all" aria-pressed="true">Everything</button>
+        <button class="chip" type="button" data-filter="pricing" aria-pressed="false">Algorithmic pricing</button>
+        <button class="chip" type="button" data-filter="ai" aria-pressed="false">Economics of AI</button>
+        <button class="chip" type="button" data-filter="platforms" aria-pressed="false">Platforms &amp; policy</button>
+        <button class="chip" type="button" data-filter="ads" aria-pressed="false">Advertising &amp; media</button>
+        <button class="chip" type="button" data-filter="experiment" aria-pressed="false">Field experiments</button>
+      </div>
+
+      <!-- ================= PUBLICATIONS ================= -->
+      <div class="paper-group">
+        <h2>Publications <span class="count">peer-reviewed</span></h2>
+
+        <article class="paper reveal" data-tags="pricing ai platforms">
+          <div class="paper-side">
+            <span class="badge pub">Published</span>
+            <span class="venue"><em>Marketing Science</em><br>2026</span>
+            <span class="badge award">Dissertation award winner</span>
+          </div>
+          <div>
+            <h3>The Challenges of Deploying an Algorithmic Pricing Tool: Evidence from Airbnb</h3>
+            <p class="authors">with Nitin Mehta</p>
+            <p class="plain"><strong>The question.</strong> Airbnb built Smart Pricing, an AI tool that sets nightly prices for hosts. Most hosts never turned it on. Why would people refuse free help with a hard problem?</p>
+            <p class="plain"><strong>What we found.</strong> Using listing data from four U.S. cities and a dynamic structural model of hosts’ pricing and adoption decisions, we show the main barrier was belief, not performance: hosts expected the algorithm to do worse than it actually did. Hosts who rarely adjust their own prices would have gained the most, yet they were the least likely to adopt. Correcting those beliefs, and retraining the algorithm on hosts’ true costs (which the platform cannot observe directly), would raise profits for both hosts and Airbnb.</p>
+            <p class="punch">Building a good algorithm is half the job. Getting people to trust it is the other half.</p>
+            <div class="links"><a href="https://pubsonline.informs.org/doi/10.1287/mksc.2024.0964" target="_blank" rel="noopener">Marketing Science →</a><a href="https://ssrn.com/abstract=4891482" target="_blank" rel="noopener">SSRN →</a></div>
+          </div>
+        </article>
+
+        <article class="paper reveal" data-tags="pricing">
+          <div class="paper-side">
+            <span class="badge pub">Published</span>
+            <span class="venue"><em>International Journal of Research in Marketing</em><br>2026</span>
+          </div>
+          <div>
+            <h3>The Impact of Word of Mouth Precision and Consumer Sophistication on Firm Pricing and Profit</h3>
+            <p class="authors">with David Soberman</p>
+            <p class="plain"><strong>The question.</strong> Shoppers learn about quality from reviews, testimonials, and friends. Some of that information is accurate and some is noise, and shoppers can’t always tell which is which. How should a firm price when that is true?</p>
+            <p class="plain"><strong>What we found.</strong> In a game-theoretic model, more accurate word of mouth is not always good news for a high-quality firm, and smarter consumers are not always better customers. Price works as a signal of quality only under a narrow set of conditions; otherwise the firm lets word of mouth do the talking.</p>
+            <p class="punch">Better information can leave the better product worse off. <span class="joke">Theory papers exist to ruin intuitions like that.</span></p>
+            <div class="links"><a href="https://www.sciencedirect.com/science/article/pii/S0167811626000212" target="_blank" rel="noopener">IJRM →</a><a href="https://arxiv.org/abs/2105.01040" target="_blank" rel="noopener">Earlier version on arXiv →</a></div>
+          </div>
+        </article>
+
+        <article class="paper reveal" data-tags="ai platforms">
+          <div class="paper-side">
+            <span class="badge pub">Published</span>
+            <span class="venue"><em>Management and Business Review</em><br>5(4), 16–26, 2025</span>
+          </div>
+          <div>
+            <h3>Barriers to AI Inputs: Implications for Competition and Innovation</h3>
+            <p class="authors">with Lee Tiedrich and Jimmy Royer</p>
+            <p class="plain"><strong>The question.</strong> To compete with AI, a firm needs data, models, computing power, and people who know what to do with them. What stands between an ordinary firm and those ingredients?</p>
+            <p class="plain"><strong>What we found.</strong> We map the barriers to each input and the practical ways around them, such as infrastructure-as-a-service and licensing commercially available AI tools, and we lay out what policymakers, industry, researchers, and data rights holders can each do to keep AI markets open and trustworthy.</p>
+            <div class="links"><a href="https://doi.org/10.1177/2694104X251404173" target="_blank" rel="noopener">Management and Business Review →</a></div>
+          </div>
+        </article>
+      </div>
+
+      <!-- ================= WORKING PAPERS ================= -->
+      <div class="paper-group">
+        <h2>Working papers <span class="count">under review &amp; circulating</span></h2>
+
+        <article class="paper reveal" data-tags="platforms">
+          <div class="paper-side">
+            <span class="badge rev">Major revision</span>
+            <span class="venue"><em>Information Systems Research</em></span>
+          </div>
+          <div>
+            <h3>Online Rating Distortion</h3>
+            <p class="authors">with Param Vir Singh</p>
+            <p class="plain">Under revision. <a href="mailto:mforough@andrew.cmu.edu?subject=Online%20Rating%20Distortion">Email me</a> for the current draft.</p>
+          </div>
+        </article>
+
+        <article class="paper reveal" data-tags="ai ads experiment">
+          <div class="paper-side">
+            <span class="badge wp">Working paper</span>
+            <span class="venue">2026</span>
+            <span class="badge award">Best Student Paper finalist, CIST 2026</span>
+          </div>
+          <div>
+            <h3>Less Traffic, More Attention? A Field Experiment on Publisher AI Summaries</h3>
+            <p class="authors">with Yichen Pan and Param Vir Singh</p>
+            <p class="plain"><strong>The question.</strong> Publishers are putting AI-written summaries at the top of their own articles. Does that help readers, or does it give them a reason not to click?</p>
+            <p class="plain"><strong>What we found.</strong> Working with a large sports media publisher, we randomly assigned 31,253 articles to show an AI summary or not. For newly published articles, which generate nearly all of the publisher’s ad revenue, summaries cut article views by 24.7% while raising the average reader’s engagement time by 7.5%. The net effect was a 23.8% drop in ad revenue from those articles. Most of the lost traffic came early in an article’s life and from reduced exposure in organic search.</p>
+            <div class="nums">
+              <span class="tag"><b>−24.7%</b> article views</span>
+              <span class="tag"><b>+7.5%</b> engagement time</span>
+              <span class="tag"><b>−23.8%</b> ad revenue</span>
+              <span class="tag"><b>8.1M</b> page views</span>
+              <span class="tag"><b>56M</b> ad impressions</span>
+            </div>
+            <p class="punch">The readers who stay pay more attention. There are just fewer of them.</p>
+            <div class="links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7639038" target="_blank" rel="noopener">SSRN →</a></div>
+          </div>
+        </article>
+
+        <article class="paper reveal" data-tags="ai experiment">
+          <div class="paper-side">
+            <span class="badge wp">Working paper</span>
+            <span class="venue">2026</span>
+          </div>
+          <div>
+            <h3>Improving Educational Technology with Collaborative Design</h3>
+            <p class="authors">with Anuj Kumar</p>
+            <p class="plain"><strong>The question.</strong> Most learning software treats each student as an individual. What if the product were built around teams instead?</p>
+            <p class="plain"><strong>What we found.</strong> We built an EdTech platform and ran a randomized field experiment across 63 math classes (grades 3–6) in 12 schools in India. Classes were assigned either an individual design, with personal feedback and recognition, or a team design that shares knowledge gaps within groups and rewards the team. The team design narrowed achievement gaps within classrooms and raised skills for every type of student, including the strongest. Nudges and incentives to complete assignments were roughly four times more effective under the team design.</p>
+            <div class="nums">
+              <span class="tag"><b>63</b> classes</span>
+              <span class="tag"><b>12</b> schools</span>
+              <span class="tag"><b>≈4×</b> nudge effectiveness</span>
+            </div>
+            <div class="links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7243023" target="_blank" rel="noopener">SSRN →</a></div>
+          </div>
+        </article>
+
+        <article class="paper reveal" data-tags="platforms">
+          <div class="paper-side">
+            <span class="badge wp">Working paper</span>
+            <span class="venue">2025</span>
+          </div>
+          <div>
+            <h3>The Intended and Unintended Consequences of Short-Term Rental Policies on Home-Sharing Platforms: Evidence from Airbnb</h3>
+            <p class="authors">with Unnati Narang</p>
+            <p class="plain"><strong>The question.</strong> Cities regulate short-term rentals with everything from licenses to outright bans, mostly to push out commercial operators. Most studies look at one city at a time. What happens when you compare them all?</p>
+            <p class="plain"><strong>What we found.</strong> Across 42 cities, short-term rental policies reduced Airbnb listings by 11.87% and unique hosts by 10.81% on average. The type of rule matters: complete bans cut listings by 20.26%, availability caps by 11.52%, and licensing requirements by 8.04%, while geographic restrictions had no significant effect. We also document side effects the policies did not intend, including lower service quality among hosts who stay.</p>
+            <div class="nums">
+              <span class="tag"><b>42</b> cities</span>
+              <span class="tag"><b>−11.9%</b> listings on average</span>
+              <span class="tag"><b>−20.3%</b> under bans</span>
+            </div>
+            <p class="punch">“Regulate Airbnb” is not one policy. It is at least four, and they do different things.</p>
+            <div class="links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5277480" target="_blank" rel="noopener">SSRN →</a></div>
+          </div>
+        </article>
+
+        <article class="paper reveal" data-tags="ai pricing">
+          <div class="paper-side">
+            <span class="badge wp">Working paper</span>
+            <span class="venue">2025</span>
+          </div>
+          <div>
+            <h3>Communicating Uncertainty Can Increase AI Adoption</h3>
+            <p class="authors">with Rozhina Ghanavi, Ryan Webb, and Avi Goldfarb</p>
+            <p class="plain"><strong>The question.</strong> AI tools usually present recommendations with total confidence. Would people follow them more, or less, if the AI admitted what it doesn’t know?</p>
+            <p class="plain"><strong>What we found.</strong> In randomized experiments where people set short-term rental prices with help from an AI, showing uncertainty made people follow the recommendation more closely. Two kinds of uncertainty matter. Showing the predicted chance of a booking at the recommended price clarifies the risk of following the AI; showing a confidence range around the price changes how precise the advice feels. Adherence was highest when both were shown, especially when feedback was scarce or the market was volatile.</p>
+            <p class="punch">An AI that says “I’m about 70% sure” gets listened to more than one that pretends to be certain. <span class="joke">This also works for professors.</span></p>
+            <div class="links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5468868" target="_blank" rel="noopener">SSRN →</a></div>
+          </div>
+        </article>
+      </div>
+
+      <!-- ================= WORK IN PROGRESS ================= -->
+      <div class="paper-group">
+        <h2>Work in progress <span class="count">not yet public</span></h2>
+
+        <article class="paper reveal" data-tags="ads experiment">
+          <div class="paper-side"><span class="badge wip">In progress</span></div>
+          <div>
+            <h3>More Revenue with Fewer Partners: A Field Experiment on Header Bidding Ad Auctions</h3>
+            <p class="authors">with Joy Lu and Minkyung Kim</p>
+            <p class="plain">A field experiment on how many bidding partners a publisher should invite into its ad auctions. <span class="joke">The title is a spoiler.</span></p>
+          </div>
+        </article>
+
+        <article class="paper reveal" data-tags="platforms">
+          <div class="paper-side"><span class="badge wip">In progress</span></div>
+          <div>
+            <h3>Learning from Others but Getting it Wrong</h3>
+            <p class="authors">with Ryan Webb</p>
+            <p class="plain">On how people learn from other people’s choices, and where that learning goes astray.</p>
+          </div>
+        </article>
+      </div>
+
+      <!-- ================= EARLIER WORK ================= -->
+      <div class="paper-group">
+        <h2>Earlier work <span class="count">a previous life in macroeconomics and biomedical signals</span></h2>
+        <ul class="plain-list">
+          <li class="reveal">Dynamic Regional Effects of Monetary Policy on Employment in Iran (TVP-FAVAR Approach)<small>with Sajjad Barkhordari · <em>Quarterly Journal of Applied Theories of Economics</em>, 6(4), 109–136, 2020</small></li>
+          <li class="reveal">Diagnosis of Sleep Apnea Based on Fractal Variability Analysis of EEG Signals in Patients with Obstructive Sleep Apnea<small>with Peyman Nazari, Tara Ghafari, Sharareh Dariani, and Mohammad R. Raoufy · <em>Nafas Journal</em>, 1(4), 8–15, 2015</small></li>
+          <li class="reveal">Predicting the Apnea by Non-linear Analysis of EEG in Patients with Sleep Apnea<small>with Peyman Nazari and Mohammad Reza Raoufy · <em>Somnologie</em>, 19 (Suppl 1), 19, 2015</small></li>
+        </ul>
+        <p class="joke" style="margin-top:16px">Yes, sleep apnea. Every economist has a past.</p>
+      </div>
+
+      <div class="callout reveal">
+        <p><strong>Want a draft, data details, or slides?</strong> <a href="mailto:mforough@andrew.cmu.edu">Email me</a>. And if one of these papers describes a problem your company is living through right now, <a href="work-with-me.html">let’s talk about running the next experiment together</a>.</p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot">
+      <div>© <span data-year>2026</span> Mohsen Foroughifar · Tepper School of Business, Carnegie Mellon University · Pittsburgh, PA</div>
+      <nav aria-label="Footer">
+        <a href="research.html">Research</a>
+        <a href="impact.html">Impact</a>
+        <a href="work-with-me.html">Work with me</a>
+        <a href="job-market.html">Job market tips</a>
+        <a href="CV_MF_Nov2026.pdf">CV</a>
+      </nav>
+    </div>
+    <p class="fine joke">No p-values were hacked in the making of this website. This site is running one experiment: whether jokes increase emails. Results forthcoming, pending Reviewer 2.</p>
+  </div>
+</footer>
+
+<script src="assets/js/site.js" defer></script>
+</body>
+</html>
